@@ -31,10 +31,17 @@ pipeline {
       
     }
 
-        stage('Deneme') {
-
+    stage('Deneme') {
       steps {
         echo 'deneme...'
+      }
+      
+    }
+
+    stage('deneme2') {
+
+      steps {
+        echo 'deneme 2 ...'
       }
       
     }
