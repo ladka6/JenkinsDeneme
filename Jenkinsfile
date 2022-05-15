@@ -30,6 +30,14 @@ pipeline {
       }
       
     }
+
+        stage('Deneme') {
+
+      steps {
+        echo 'deneme...'
+      }
+      
+    }
     
   }
   
